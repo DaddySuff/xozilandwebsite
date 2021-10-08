@@ -53,7 +53,7 @@ var discordInvite = discordInvite || function () {
 
 $(document).ready(() => {
     discordInvite.init({
-        inviteCode: https://discord.gg/QpNMpFmzsk
+        inviteCode: INVITE_CODE
     });
     discordInvite.render();
     setTimeout(() => {
